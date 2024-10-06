@@ -1,4 +1,4 @@
-# main.py
+
 
 from libro import Libro
 from gestión import GestionBiblioteca

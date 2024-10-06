@@ -1,9 +1,9 @@
 import Problema8
 
-# Ejemplos de uso de las funciones del módulo operaciones
+
 a = 10
 b = 5
-c = "texto"  # Valor no válido para probar el manejo de errores
+c = "texto"  
 
 # Suma
 print(f"Suma de {a} y {b}: {Problema8.suma(a, b)}")

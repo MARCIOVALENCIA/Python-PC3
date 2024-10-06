@@ -1,6 +1,6 @@
 import math
 
-# Reutilización de la clase CIRCULO
+
 class CIRCULO:
     def __init__(self, radio):
         self.radio = radio
@@ -8,7 +8,7 @@ class CIRCULO:
     def calcular_area(self):
         return math.pi * (self.radio ** 2)
 
-# Reutilización de la clase RECTANGULO
+
 class RECTANGULO:
     def __init__(self, largo, ancho):
         self.largo = largo
@@ -17,12 +17,12 @@ class RECTANGULO:
     def calcular_area(self):
         return self.largo * self.ancho
 
-# Reutilización de la clase CUADRADO que hereda de RECTANGULO
+
 class CUADRADO(RECTANGULO):
     def __init__(self, lado):
         super().__init__(lado, lado)
 
-# Función para validar entradas
+
 def validar_numero_positivo(mensaje):
     while True:
         try:
@@ -34,7 +34,7 @@ def validar_numero_positivo(mensaje):
         except ValueError:
             print("Error: Debe ingresar un número válido.")
 
-# Menú principal
+
 def menu():
     while True:
         print("\n--- Menú ---")
